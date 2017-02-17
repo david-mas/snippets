@@ -1,0 +1,12 @@
+        <dependency>
+            <groupId>eu.geekplace.javapinning</groupId>
+            <artifactId>java-pinning-jar</artifactId>
+            <version>1.0.1</version>
+        </dependency>
+
+        // TODO certificate pinning
+        // HttpsURLConnection
+        // .setDefaultSSLSocketFactory(JavaPinning
+        // .forPin(
+        // "CERTSHA256:6717E83098B9578AE268A4D21733ADC52BA4FF4BBA46909CC88E375A92A6475A")
+        // .getSocketFactory());

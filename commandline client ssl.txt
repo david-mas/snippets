@@ -1,0 +1,3 @@
+-Djavax.net.ssl.keyStore=C:/Users/dmas/Desktop/denmark/HIT-ScytlHit.p12 -Djavax.net.ssl.keyStorePassword=Scytl2015! -Djavax.net.ssl.keyStoreType=pkcs12
+
+-Djavax.net.debug=all -Djsse.enableSNIExtension=false

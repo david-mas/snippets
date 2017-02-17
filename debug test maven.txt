@@ -1,0 +1,7 @@
+Using Eclipse to debug tests run with Maven is easy. Say you want to debug the MySuperClassTest class:
+
+    Start the Maven test just for this class in debug mode:
+    mvn -Dtest=MySuperClassTest -Dmaven.surefire.debug test
+
+    The test will wait for Eclipse to connect.
+    Open the Debug Configuration of Eclipse and set up a remote application on port 5005. Run the configuration, the test will resume. You can use break points and all the usual features of Eclipse debugging.

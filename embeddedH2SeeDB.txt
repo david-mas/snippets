@@ -1,0 +1,4 @@
+org.h2.tools.Server.startWebServer(org.springframework.jdbc.datasource.DataSourceUtils.getConnection(getJdbcTemplate().getDataSource()));
+
+
+org.h2.tools.Server.startWebServer(((com.zaxxer.hikari.hibernate.HikariConnectionProvider)((org.hibernate.internal.SessionFactoryImpl)((org.hibernate.jpa.HibernateEntityManagerFactory)((org.hibernate.jpa.HibernateEntityManager)_entityManager).getEntityManagerFactory()).getSessionFactory()).getConnectionProvider()).getConnection());

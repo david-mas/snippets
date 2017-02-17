@@ -1,0 +1,1 @@
+="insert into users (id, rid, fullname, password, status, komune_id, authorities_str) values ("&ROW()+134&", '"&C19&"', '"&A19&"', '"&D19&"', 'ACTIVE', 1, 'ROLE_SEARCH_PRINT');"
